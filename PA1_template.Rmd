@@ -4,7 +4,6 @@ output:
   html_document:
     keep_md: true
 ---
-
 ## Loading and preprocessing the data
 ## Loading following packages. If packages do not exist, install using install.packages().
 library("lubridate")
