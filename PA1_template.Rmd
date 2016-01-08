@@ -25,7 +25,6 @@ steps.per.day <- activity %>%
 
 hist(steps.per.day$Total, main="Total Number Of Steps Taken Each Day", xlab="Number Of Steps")
 ```
-
 Calculate mean and median for dataset.
 ```{r mean, median}
 mean.steps.per.day <- as.integer(round(mean(steps.per.day$Total, na.rm=TRUE), digits = 0))
@@ -48,6 +47,7 @@ plot(daily.activity, type="l", main="Average Number Of Steps Taken", ylab="Numbe
 
 abline(v=max.steps.interval, lty=2, lwd=2)
 ```
+
 Interval containing maximum number of steps: `r max.steps.interval`
 
 ## Imputing missing values

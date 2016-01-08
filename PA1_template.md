@@ -25,7 +25,6 @@ hist(steps.per.day$Total, main="Total Number Of Steps Taken Each Day", xlab="Num
 ```
 
 ![](PA1_template_files/figure-html/daily summary-1.png)\
-
 Calculate mean and median for dataset.
 
 ```r
@@ -52,6 +51,7 @@ abline(v=max.steps.interval, lty=2, lwd=2)
 ```
 
 ![](PA1_template_files/figure-html/daily activity-1.png)\
+
 Interval containing maximum number of steps: 835
 
 ## Imputing missing values
